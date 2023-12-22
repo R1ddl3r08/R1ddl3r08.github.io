@@ -2,7 +2,7 @@ $(function () {
 
     function fetchProducts() {
         $.ajax({
-            url: '/products-website/php/getAllProducts.php', 
+            url: '/R1ddl3r08.github.io/php/getAllProducts.php', 
             type: 'GET',
             dataType: 'json',
             success: function(response) {
@@ -35,7 +35,7 @@ $(function () {
 
         if (checkedProductIds.length > 0) {
             $.ajax({
-                url: '/products-website/php/deleteProducts.php', 
+                url: '/R1ddl3r08.github.io/php/deleteProducts.php', 
                 type: 'POST', 
                 data: { productIds: checkedProductIds }, 
                 dataType: 'json',
